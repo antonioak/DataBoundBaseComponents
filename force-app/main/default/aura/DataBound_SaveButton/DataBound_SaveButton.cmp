@@ -1,0 +1,33 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName" >
+
+    <aura:attribute name="record" type="Object" />
+    <aura:attribute name="simpleRecord" type="Object" />
+    <aura:attribute name="recordError" type="String" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />   
+
+    <force:recordData aura:id="recordLoader"
+        recordId="{!v.recordId}"
+        layoutType="FULL"
+        mode="EDIT"
+        targetError="{!v.recordError}"
+        targetRecord="{!v.record}"
+        targetFields="{!v.simpleRecord}"
+        recordUpdated="{!c.handleRecordUpdated}"
+    />
+
+    <aura:registerEvent name="dbEditModeEvent" type="c:dbEditModeEvent" />
+
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />   
+    <aura:handler event="c:dbComponentDirtyEvent" action="{!c.handleDBComponentDirtyEvent}" />
+
+    <div class="slds-grid">
+        <div class="slds-col slds-size_1-of-12">
+            <div><lightning:button aura:id="cancelButton" label="Cancel" onclick="{!c.onCancelClick}" disabled="True"/></div>
+        </div>
+        <div class="slds-col slds-size_1-of-12">
+            <div><lightning:button aura:id="saveButton" label="Save" onclick="{!c.onSaveClick}" disabled="True"/></div>
+        </div>
+    </div>    
+
+</aura:component>

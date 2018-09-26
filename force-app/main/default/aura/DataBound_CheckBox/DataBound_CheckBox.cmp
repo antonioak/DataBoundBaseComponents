@@ -1,0 +1,29 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName" >
+
+    <aura:attribute name="dbFieldName" type="String" default="Name" />
+    <aura:attribute name="dbFieldNames" type="String[]" default="['Id', 'Name']" />
+    <aura:attribute name="dbFieldValue" type="String" default="Hello" />
+
+    <aura:attribute name="record" type="Object" />
+    <aura:attribute name="simpleRecord" type="Object" />
+    <aura:attribute name="recordError" type="String" />
+
+    <aura:registerEvent name="dbComponentDirtyEvent" type="c:dbComponentDirtyEvent" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />   
+    <aura:handler event="c:dbEditModeEvent" action="{!c.handleDBEditModeEvent}" />
+    <aura:handler event="c:dbCancelEditEvent" action="{!c.handleDBCancelEditEvent}" />
+
+    <force:recordData aura:id="recordLoader"
+        recordId="{!v.recordId}"
+        fields="{!v.dbFieldNames}"
+        mode="EDIT"
+        targetError="{!v.recordError}"
+        targetRecord="{!v.record}"
+        targetFields="{!v.simpleRecord}"
+        recordUpdated="{!c.handleRecordUpdated}"
+    />
+
+    <lightning:input aura:id="inputField" type="toggle" messageToggleActive="" messageToggleInactive="" label="{!v.dbFieldName}" readonly="True" onchange="{!c.handleTextChange}" />
+
+</aura:component>

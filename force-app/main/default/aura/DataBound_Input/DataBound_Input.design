@@ -1,0 +1,3 @@
+<design:component >
+    <design:attribute name="dbFieldName" label="Data Bound Field Name" description="Name of Field to Bind To." />
+</design:component>
