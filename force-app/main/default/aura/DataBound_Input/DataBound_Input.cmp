@@ -24,6 +24,6 @@
         recordUpdated="{!c.handleRecordUpdated}"
     />
 
-    <lightning:input aura:id="inputField" label="{!v.dbFieldName}" readonly="True" onchange="{!c.handleTextChange}" />
+    <lightning:input aura:id="inputField" label="{!v.dbFieldName}" readonly="True" onchange="{!c.handleTextChange}" onblur="{!c.handleBlur}" />
 
 </aura:component>

@@ -16,7 +16,7 @@
         component.find("recordLoader").reloadRecord();
 
         //
-        //  Notify other Save Components to disable themselves.
+        //  Notify all DataBound Components to cancel out of this change and revert to origial record values.
         //
         var cmpEvent = $A.get("e.c:dbCancelEditEvent");
         cmpEvent.fire();
@@ -27,6 +27,8 @@
         var cmpEvent = $A.get("e.c:dbComponentDirtyEvent");
 
         cmpEvent.setParam("dbFieldName", "DISABLE");
+        cmpEvent.setParam("dbFieldValue", "DISABLE");
+
         cmpEvent.fire();
     },
 
@@ -49,6 +51,8 @@
                 var cmpEvent = $A.get("e.c:dbComponentDirtyEvent");
 
                 cmpEvent.setParam("dbFieldName", "DISABLE");
+                cmpEvent.setParam("dbFieldValue", "DISABLE");
+
                 cmpEvent.fire();
 
             }
@@ -80,12 +84,11 @@
         var fieldName = event.getParam("dbFieldName");
         var fieldValue = event.getParam("dbFieldValue");
 
-        console.log("SAVE BUTTON DIRTY EVENT:  ");
-        console.log(dbFieldName + ":  " + dbFieldValue);
+        console.log("SAVE BUTTON DIRTY EVENT:  " + fieldName + ", " + fieldValue);
 
         component.set("v.simpleRecord." + fieldName, fieldValue);
 
-        console.log("SIMPLE RECORD VALUE:  " + component.get("v.simpleRecord." + component.get("v.dbFieldName")));
+        //console.log("SIMPLE RECORD VALUE:  " + component.get("v.simpleRecord." + component.get("v.dbFieldName")));
 
         var cmp = component.find("saveButton");
         cmp.set("v.disabled", fieldName=="DISABLE");

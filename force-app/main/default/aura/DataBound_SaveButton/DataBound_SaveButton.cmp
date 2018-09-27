@@ -4,8 +4,6 @@
     <aura:attribute name="simpleRecord" type="Object" />
     <aura:attribute name="recordError" type="String" />
 
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />   
-
     <force:recordData aura:id="recordLoader"
         recordId="{!v.recordId}"
         layoutType="FULL"
@@ -17,6 +15,7 @@
     />
 
     <aura:registerEvent name="dbEditModeEvent" type="c:dbEditModeEvent" />
+    <aura:registerEvent name="dbCancelEditEvent" type="c:dbCancelEditEvent" />
 
 	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />   
     <aura:handler event="c:dbComponentDirtyEvent" action="{!c.handleDBComponentDirtyEvent}" />

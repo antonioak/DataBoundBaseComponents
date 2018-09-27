@@ -24,6 +24,6 @@
         recordUpdated="{!c.handleRecordUpdated}"
     />
 
-    <lightning:slider aura:id="sliderCmp" disabled="True" step="1" min="0" max="100" label="{!v.dbFieldName}" onchange="{!c.handleChange}" />
+    <lightning:slider aura:id="sliderCmp" disabled="true" step="1" min="0" max="100" label="{!v.dbFieldName}" onchange="{!c.handleChange}" />
 
 </aura:component>	

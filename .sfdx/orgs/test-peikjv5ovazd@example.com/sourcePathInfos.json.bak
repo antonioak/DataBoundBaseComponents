@@ -93,7 +93,7 @@
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_CheckBox\\DataBound_CheckBox.cmp",
             "isDirectory": false,
             "size": 1334,
-            "modifiedTime": 1537921610730,
+            "modifiedTime": 1538007917568,
             "changeTime": 1537921610730,
             "contentHash": "f53390478ffc8a11b2d818ecf4554ecd3c51ca9c",
             "isMetadataFile": false,
@@ -165,10 +165,10 @@
         {
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_CheckBox\\DataBound_CheckBoxController.js",
             "isDirectory": false,
-            "size": 2354,
-            "modifiedTime": 1537921659698,
-            "changeTime": 1537921659698,
-            "contentHash": "b2a8e0975f3f7aa5057f96deb17d460596f32684",
+            "size": 2997,
+            "modifiedTime": 1538088840184,
+            "changeTime": 1538088840184,
+            "contentHash": "6df019c9fee8a57111afb748d431c34c315a41b3",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -239,10 +239,10 @@
         {
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_Input\\DataBound_Input.cmp",
             "isDirectory": false,
-            "size": 1272,
-            "modifiedTime": 1537915249799,
-            "changeTime": 1537915249799,
-            "contentHash": "29c5bbb74ff1067d50c376abdc5f5b1daa641130",
+            "size": 1297,
+            "modifiedTime": 1538071863928,
+            "changeTime": 1538071863928,
+            "contentHash": "c37d77015c75971689691a93a49768e7216f7af7",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -311,15 +311,15 @@
     [
         "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_Input\\DataBound_InputController.js",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_Input\\DataBound_InputController.js",
             "isDirectory": false,
-            "size": 2345,
-            "modifiedTime": 1537921958068,
-            "changeTime": 1537921958068,
-            "contentHash": "24e6627c0eb5af38346564c91d1c6571643b6c12",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 4962,
+            "modifiedTime": 1538090365231,
+            "changeTime": 1538090365231,
+            "isWorkspace": false,
+            "contentHash": "337c00952aaa1d88e19bb66d1c397e71e65a7304"
         }
     ],
     [
@@ -461,14 +461,13 @@
         {
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_ProgressBar\\DataBound_ProgressBarController.js",
             "isDirectory": false,
-            "size": 1478,
-            "modifiedTime": 1537824532629,
-            "changeTime": 1537824532629,
-            "contentHash": "fc9d62978056ed2dcb210d8b61f65525a6c36075",
+            "size": 2306,
+            "modifiedTime": 1538089524987,
+            "changeTime": 1538089524987,
+            "contentHash": "e16bc4de6634047605964bd29da1358946f84a2b",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -534,15 +533,15 @@
     [
         "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_SaveButton\\DataBound_SaveButton.cmp",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_SaveButton\\DataBound_SaveButton.cmp",
             "isDirectory": false,
+            "size": 1321,
+            "modifiedTime": 1538068662857,
+            "changeTime": 1538007262331,
+            "contentHash": "6f9735b6d07b87158ff8205acb80af78644fe4dc",
             "isMetadataFile": false,
-            "size": 1316,
-            "modifiedTime": 1537923741509,
-            "changeTime": 1537923741509,
-            "isWorkspace": false,
-            "contentHash": "91d83b82faa2039fe88fe8c4a754b391f7f7b23a"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -609,10 +608,10 @@
         {
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_SaveButton\\DataBound_SaveButtonController.js",
             "isDirectory": false,
-            "size": 4553,
-            "modifiedTime": 1537921467812,
-            "changeTime": 1537921467812,
-            "contentHash": "e64f642d013fee80546d93e56e50a02aee6832fc",
+            "size": 4691,
+            "modifiedTime": 1538086376943,
+            "changeTime": 1538086376943,
+            "contentHash": "5134512cc8c09c5b6661393191f687ff7c2c155c",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -744,13 +743,12 @@
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1537824718277,
-            "changeTime": 1537824718277,
-            "contentHash": "829e604d4e7d5aae25f04d899b0bc5eccc598817",
+            "modifiedTime": 1537994421138,
+            "changeTime": 1537994421138,
+            "contentHash": "806ba1a6fdbf66cfb747163cfbc2797dba062b4e",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": true,
-            "isArtifactRoot": false
+            "isWorkspace": true
         }
     ],
     [
@@ -785,9 +783,9 @@
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_Slider\\DataBound_Slider.cmp",
             "isDirectory": false,
             "size": 1283,
-            "modifiedTime": 1537921621484,
-            "changeTime": 1537921621484,
-            "contentHash": "c82dc94e1bbf1d627ad42e8e5234fc37aaf3cb58",
+            "modifiedTime": 1538090080825,
+            "changeTime": 1538090080825,
+            "contentHash": "438468c071570341d2538ba82dd5488c57725085",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -847,14 +845,14 @@
     [
         "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_Slider\\DataBound_SliderController.js",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\anton\\Source Code\\DataBoundBaseComponents\\force-app\\main\\default\\aura\\DataBound_Slider\\DataBound_SliderController.js",
             "isDirectory": false,
-            "size": 2226,
-            "modifiedTime": 1537921679449,
-            "changeTime": 1537921679449,
-            "contentHash": "08e05c875c358573baebe05ce76bd9ca09295baf",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 3047,
+            "modifiedTime": 1538090352146,
+            "changeTime": 1538090352146,
+            "contentHash": "760cebcb2fa6857034553ae64a3cdeaaf9ed6eaf"
         }
     ],
     [
