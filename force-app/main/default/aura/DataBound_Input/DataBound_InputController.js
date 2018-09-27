@@ -68,10 +68,6 @@
         var cmpValue = component.find("inputField").get("v.value");
 
         console.log("INPUT:  RECORD UPDATED:  " + fieldName + "--" + eventParams.changeType);
-        //console.log("     FIELD NAME:  " + fieldName);
-        //console.log("     RECORD VALUE:  " + component.get("v.record.fields." + fieldName + ".value"));
-        //console.log("     SIMPLE VALUE:  " + fieldValue);
-        //console.log("     COMPONENT VALUE:  " + cmpValue);    
 
         if (eventParams.changeType === "LOADED")
         {
