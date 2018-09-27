@@ -82,9 +82,6 @@
 
             component.find("inputField").set("v.value", fieldValue);
 
-            //console.log("     RECORD VALUE:  " + component.get("v.record.fields." + fieldName + ".value"));
-            //console.log("     SIMPLE VALUE:  " + fieldValue);
-            //console.log("     COMPONENT VALUE:  " + component.find("inputField").get("v.value"));    
         } 
         else if(eventParams.changeType === "CHANGED") 
         {
@@ -104,12 +101,6 @@
     
                 component.find("recordLoader").reloadRecord();
             }
-
-            //component.find("recordLoader").reloadRecord();
-
-            //console.log("     RECORD VALUE:  " + component.get("v.record.fields." + fieldName + ".value"));
-            //console.log("     SIMPLE VALUE:  " + component.get("v.simpleRecord." + fieldName));
-            //console.log("     COMPONENT VALUE:  " + component.find("inputField").get("v.value"));    
         }
         else if(eventParams.changeType === "REMOVED")
         {

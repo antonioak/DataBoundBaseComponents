@@ -71,8 +71,6 @@
     
                 component.find("recordLoader").reloadRecord();
             }
-
-            //component.find("recordLoader").reloadRecord();
         }
         else if(eventParams.changeType === "REMOVED")
         {
